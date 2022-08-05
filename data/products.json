@@ -1,0 +1,23 @@
+{
+  "1": {
+    "title": "Your Skin But Better CC+ Cream with SPF50 12ml",
+    "price": "28.00",
+    "discountPrice": "none",
+    "img": "./../images/image10discoverImg.png",
+    "label": "new"
+  },
+  "2": {
+    "title": "KEM DUONG VT CICA - VT CICA CREAM",
+    "price": "32.00",
+    "discountPrice": "28.00",
+    "img": "./../images/image10discoverImg.png",
+    "label": "new"
+  },
+  "3": {
+    "title": "Niche Beauty CCC Cream – Niche Beauty",
+    "price": "28.00",
+    "discountPrice": "none",
+    "img": "./../images/image10discoverImg.png",
+    "label": "none"
+  }
+}

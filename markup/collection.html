@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../css/collection.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./../js/collection.js" defer></script>
+    <title>Collection</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="header__announcement">
+          Free shipping for all orders over $<span
+            class="header__announcement-price"
+            >100</span
+          >
+        </div>
+        <nav class="navbar__links">
+          <ul class="navbar__links-ul">
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">SHOP</a>
+            </li>
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">ABOUT</a>
+            </li>
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">SUNCARE 101</a>
+            </li>
+          </ul>
+          <div class="mobile__menu">Menu</div>
+          <h2 class="navbar__links-title">CREAM SHOP</h2>
+          <ul class="navbar__links-ul">
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">ACCOUNT</a>
+            </li>
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">SEARCH</a>
+            </li>
+            <li class="navbar__links-li">
+              <a href="#" class="navbar__links-a">CART(<span>0</span>)</a>
+            </li>
+          </ul>
+          <div class="mobile__cart">cart(<span>0</span>)</div>
+        </nav>
+      </div>
+      <div class="header__bottom">
+        <h1 class="header__heading">Lorem ipsum</h1>
+        <p class="header__description">
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum
+        </p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="products__container">
+        <div class="products__header">
+          <p class="products__path">Home / Best seller</p>
+          <label for="sort" class="products__sort-label">Sort by</label>
+          <select class="products__sort" id="sort" name="sort">
+            <option value="date">date</option>
+            <option value="price">price</option>
+          </select>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("./../images/collectionBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 5vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.header__announcement {
+  font-size: 1.4rem;
+  font: inherit;
+  font-weight: 500;
+  line-height: 2.2rem;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.header__announcement-price {
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.navbar__links-title {
+  text-align: center;
+  flex-grow: 10;
+  font-size: 2.9rem;
+}
+
+.navbar__links-ul {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar__links-li {
+}
+
+.navbar__links-a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+
+.mobile__menu {
+  display: none;
+}
+.mobile__cart {
+  display: none;
+}
+
+.header__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10rem 0 0 0;
+}
+
+.header__heading {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 7.3rem;
+  text-transform: uppercase;
+}
+
+.header__description {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  width: 50%;
+}
+
+.main {
+  padding: 0 5vw;
+}
+
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-auto-flow: row;
+  grid-gap: 1.5rem;
+}
+.products__header {
+  grid-column: 1/-1;
+}
+
+.product {
+  height: 5rem;
+}
+
+.product__img-container {
+  background-color: #7373d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px 10px 10px;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.product__img {
+  width: 325px;
+  height: 325px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.product__img-p {
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 400;
+  color: #fff;
+  border-top: 1px solid #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.product__cta {
+  margin-right: 10px;
+}
+.product__label {
+  color: #7373d7;
+  font-size: 14px;
+  font-weight: 400;
+}
+.product__label-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product__details {
+  margin-top: 5px;
+}
+.product__title {
+  margin-top: 5px;
+}
+.product__prices {
+  margin-top: 5px;
+  display: flex;
+}
+.product__price {
+  margin-left: 1rem;
+  color: #555555;
+}
+.product__price-line {
+  text-decoration: line-through;
+}
